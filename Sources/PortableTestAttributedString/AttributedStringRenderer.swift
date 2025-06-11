@@ -9,7 +9,7 @@ public class PortableTextRenderer {
     let codeBackgroundColor: UIColor
     let underlineLinks: Bool
 
-    init(
+    public init(
         portableText: [PortableText],
         fontMap: [String: UIFont] = [
             "h1": UIFont.systemFont(ofSize: 24, weight: .bold),
